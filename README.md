@@ -13,6 +13,11 @@ Brief description of your vehicle's purpose and performance goals.
 - Motor: 4015 gimbal BLDC motor (~400rpm max with 8 1.2vAA batteries)
 - Encoder: AS5600 (0.087deg accuracy)
 
+- Vehicle accuracy:
+-   +- 1.5cm
+-   +- 0.5s
+-   gate width minimum: 13cm
+
 ## Quick Start
 1. Install Arduino IDE
 2. Install ESP32 board package
