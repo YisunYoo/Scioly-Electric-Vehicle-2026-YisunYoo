@@ -784,7 +784,7 @@ void RUNSTART(float target_distance, float target_can_distance, float target_tim
 
   float can_centerLine = leftOrRight * (100.0f - target_can_distance / 2.0f);
   float start_to_can_distance = target_distance / 2.0f;
-  moveStrait(can_centerLine-1.0f, 0, can_centerLine-1.0f, start_to_can_distance + 10.0f, 4.0f, 1, 0); 
+  moveStrait(can_centerLine, 0, can_centerLine, start_to_can_distance + 10.0f, 4.0f, 1, 0); 
   moveStrait(0.0f, 0.0f, 0.0f, target_distance - 10.0f, 4.0f, 0, 1); 
   moveFinal(1,target_time);
   motor1.disable();
