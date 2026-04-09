@@ -1,3 +1,7 @@
+//BNO_08X_yaw_tester 
+//Using I2C mode, with esp32
+//When testing with arduino nano esp32 SPI communication mode, change the pins, and change I2C mode to SPI mode
+
 #include <Wire.h>
 #include "SparkFun_BNO08x_Arduino_Library.h"
 #include "sh2.h" 
