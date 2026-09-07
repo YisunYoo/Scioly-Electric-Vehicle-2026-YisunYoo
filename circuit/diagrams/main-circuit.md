@@ -1,5 +1,5 @@
 ![image failed](circuit/diagrams/EV_circuit_diagram.png)
-#
+
 # Circuit Specification
 
 PROJECT: SCIOLY EV Circuit Diagram
@@ -50,32 +50,32 @@ SOFTWARE: EasyEDA
 
 [A] ARDUINO NANO ESP32
 -------------------------------------------------------------------
-Pin 1  (D1/TX)   ---> TCA9548A (Pin 22: SCL)
-Pin 2  (D0/RX)   ---> TCA9548A (Pin 23: SDA)
-Pin 5  (D2)      ---> Arduino-Button (Pin 3)
-Pin 6  (D3)      ---> Tied to BOTH M1 (nRT) and M2 (nRT)
-Pin 7  (D4)      ---> M2 SimpleFOCMini V1 (nSP)
-Pin 8  (D5)      ---> M2 SimpleFOCMini V1 (nFT)
-Pin 9  (D6)      ---> M2 SimpleFOCMini V1 (EN)
-Pin 10 (D7)      ---> M2 SimpleFOCMini V1 (M3)
-Pin 11 (D8)      ---> M2 SimpleFOCMini V1 (M2)
-Pin 12 (D9)      ---> M2 SimpleFOCMini V1 (M1)
-Pin 13 (D10)     ---> M2 SimpleFOCMini V1 (IN3)
-Pin 14 (D11)     ---> M2 SimpleFOCMini V1 (IN2)
-Pin 15 (D12)     ---> M2 SimpleFOCMini V1 (IN1)
-Pin 16 (D13)     ---> M1 SimpleFOCMini V1 (IN1)
-Pin 17 (3V3)     ---> 3.3V Power Rail
-Pin 19 (A0)      ---> M1 SimpleFOCMini V1 (IN2)
-Pin 20 (A1)      ---> M1 SimpleFOCMini V1 (IN3)
-Pin 21 (A2)      ---> M1 SimpleFOCMini V1 (M1)
-Pin 22 (A3)      ---> M1 SimpleFOCMini V1 (M2)
-Pin 23 (A4)      ---> M1 SimpleFOCMini V1 (M3)
-Pin 24 (A5)      ---> M1 SimpleFOCMini V1 (EN)
-Pin 25 (A6)      ---> M1 SimpleFOCMini V1 (nFT)
-Pin 26 (A7)      ---> M1 SimpleFOCMini V1 (nSP)
-Pin 28 (VBUS)    ---> 5V Power Rail
-Pin 29 (GND)     ---> Common Ground Rail
-Pin 30 (VIN)     ---> 12V Battery (+)
+* Pin 1  (D1/TX)   ---> TCA9548A (Pin 22: SCL)
+* Pin 2  (D0/RX)   ---> TCA9548A (Pin 23: SDA)
+* Pin 5  (D2)      ---> Arduino-Button (Pin 3)
+* Pin 6  (D3)      ---> Tied to BOTH M1 (nRT) and M2 (nRT)
+* Pin 7  (D4)      ---> M2 SimpleFOCMini V1 (nSP)
+* Pin 8  (D5)      ---> M2 SimpleFOCMini V1 (nFT)
+* Pin 9  (D6)      ---> M2 SimpleFOCMini V1 (EN)
+* Pin 10 (D7)      ---> M2 SimpleFOCMini V1 (M3)
+* Pin 11 (D8)      ---> M2 SimpleFOCMini V1 (M2)
+* Pin 12 (D9)      ---> M2 SimpleFOCMini V1 (M1)
+* Pin 13 (D10)     ---> M2 SimpleFOCMini V1 (IN3)
+* Pin 14 (D11)     ---> M2 SimpleFOCMini V1 (IN2)
+* Pin 15 (D12)     ---> M2 SimpleFOCMini V1 (IN1)
+* Pin 16 (D13)     ---> M1 SimpleFOCMini V1 (IN1)
+* Pin 17 (3V3)     ---> 3.3V Power Rail
+* Pin 19 (A0)      ---> M1 SimpleFOCMini V1 (IN2)
+* Pin 20 (A1)      ---> M1 SimpleFOCMini V1 (IN3)
+* Pin 21 (A2)      ---> M1 SimpleFOCMini V1 (M1)
+* Pin 22 (A3)      ---> M1 SimpleFOCMini V1 (M2)
+* Pin 23 (A4)      ---> M1 SimpleFOCMini V1 (M3)
+* Pin 24 (A5)      ---> M1 SimpleFOCMini V1 (EN)
+* Pin 25 (A6)      ---> M1 SimpleFOCMini V1 (nFT)
+* Pin 26 (A7)      ---> M1 SimpleFOCMini V1 (nSP)
+* Pin 28 (VBUS)    ---> 5V Power Rail
+* Pin 29 (GND)     ---> Common Ground Rail
+* Pin 30 (VIN)     ---> 12V Battery (+)
 
 [B] TCA9548A I2C MULTIPLEXER (Addr: 0x70)
 -------------------------------------------------------------------
