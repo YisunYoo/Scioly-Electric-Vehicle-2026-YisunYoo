@@ -1,4 +1,5 @@
 ![image failed](circuit/diagrams/EV_circuit_diagram.png)
+![image failed](images/IMG_4255.png)
 
 # Circuit Specification
 
