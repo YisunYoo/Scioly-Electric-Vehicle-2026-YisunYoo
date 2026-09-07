@@ -11,9 +11,8 @@ Built by Yisun "Ben" Yoo , Savannah Country Day School class of 2027
 #
 **#1 EV in 2026 Georgia state Science Olympiad competition**
 
-![image failed](circuit/diagrams/EV_circuit_diagram.png)
-circuit/diagrams/EV_circuit_diagram.png
-images/IMG_4255.png
+![image failed](images/IMG_4255.png)
+
 ## Overview
 Brief description of your vehicle's purpose and performance goals.
 
