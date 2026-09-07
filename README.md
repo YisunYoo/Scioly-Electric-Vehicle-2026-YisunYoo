@@ -1,3 +1,9 @@
+
+
+https://github.com/user-attachments/assets/1983c1e8-5cba-4048-b536-1d948fe2c736
+
+
+
 # Scioly-Electric-Vehicle-2026
 Full documentation for vehicle built for Science Olympiad division C Electric Vehicle event 
 #
