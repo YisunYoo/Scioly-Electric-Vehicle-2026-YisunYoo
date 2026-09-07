@@ -1,5 +1,9 @@
 ![image failed](circuit/diagrams/EV_circuit_diagram.png)
-===================================================================
+#
+# Circuit Specification
+#
+
+
 PROJECT: SCIOLY EV Circuit Diagram
 DOCUMENTATION: Main Circuit Netlist and Pin Specifications
 REVISION: 1.0
@@ -8,7 +12,6 @@ COMPANY/TEAM: Savannah Country Day School
 DRAWN BY: Yisun Yoo
 CREATED BY: Yisun Yoo
 SOFTWARE: EasyEDA
-===================================================================
 
 -------------------------------------------------------------------
 1. SYSTEM SPECIFICATIONS & HARDWARE NOTES
@@ -154,5 +157,5 @@ Motor2 u,v,w  ---> 3-Phase outputs to Right Motor
 -------------------------------------------------------------------
 Pin 3 ---> Arduino Nano ESP32 (Pin 5: D2)
 Pin 4 ---> GND
-===================================================================
+
 
