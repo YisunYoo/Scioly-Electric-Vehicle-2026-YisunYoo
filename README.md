@@ -34,7 +34,7 @@ Brief description of your vehicle's purpose and performance goals.
 3. Upload `firmware/vehicle-controller.ino`
 
 ## Documentation
-- [Circuit Design](docs/CIRCUIT.md)
+- [Circuit Design](circuit/diagrams/main-circuit.md)
 - [Bill of Materials](docs/BOM.md)
 - [3D Models](3d-models/)
   
