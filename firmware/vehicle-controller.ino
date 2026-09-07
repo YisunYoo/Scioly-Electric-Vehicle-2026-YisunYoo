@@ -1,8 +1,8 @@
 //by Yisun Yoo
-//This is the final version. DO NOT CHANGE EXCEPT TIME AND DISTANCE
+//This is the final version. DO NOT CHANGE EXCEPT parameters of RUNSTART inside loop()
 
 /*
-  this code uses PID and odometry to move the differential drive robot with two motors from one point to another point as precise as possible, with a gate to pass through.
+  this code uses modified PID and odometry to move the differential drive robot with two motors from one point to another point as precise as possible, with a gate to pass through.
   the given sensors are
   1. two AS5600 encoder
   - Operating Voltage: 3.3V
@@ -845,7 +845,7 @@ void loop(){
   if (btn != last_button && (now - last_change) > debounce_ms) {
     last_change = now;
     if (btn == LOW) {
-      RUNSTART(920, 15, 10, -1); // distance cm, can distance cm , time s, left right
+      RUNSTART(920, 15, 10, -1); // distance cm, can distance cm , time s, -1 if left 1 if right
     }
     last_button = btn;
   }
