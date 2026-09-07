@@ -1,4 +1,4 @@
-![image failed](Scioly-Electric-Vehicle-2026/circuit/diagrams/EV_circuit_diagram.png)
+![image failed](circuit/diagrams/EV_circuit_diagram.png)
 
 # Circuit Specification
 
