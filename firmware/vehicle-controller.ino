@@ -13,7 +13,7 @@
 
   2.BNO 055  absolute orientation sensor also with I2C
 
-  The vehicle has wheel radius of 3.0cm, wheel diameter of 6.0cm (with wheel base of 8.1cm)
+  The vehicle has wheel radius of 3.0cm, wheel diameter of 9.0cm (with wheel base of 8.1cm)
   The motor is 4015 gimbal motor 
   - wire to wire resistance of 4.8 ohms
   - rated voltage up to 24v and current max up to 4A
