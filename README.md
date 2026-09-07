@@ -9,7 +9,7 @@ Full documentation for vehicle built for Science Olympiad division C Electric Ve
 #
 Built by Yisun "Ben" Yoo , Savannah Country Day School class of 2027
 #
-#1 EV in Georgia state competition
+# #1 EV in 2026 Georgia state Science Olympiad competition
 
 ![image failed](images/IMG_4255.png)
 
