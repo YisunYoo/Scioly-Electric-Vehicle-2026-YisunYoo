@@ -3,6 +3,8 @@ Full documentation for vehicle built for Science Olympiad division C Electric Ve
 #
 Built by Yisun "Ben" Yoo , Savannah Country Day School class of 2027
 
+![image failed]([IMG_4255.png](https://github.com/YisunYoo/Scioly-Electric-Vehicle-2026/blob/main/images/IMG_4255.png))
+
 ## Overview
 Brief description of your vehicle's purpose and performance goals.
 
@@ -27,5 +29,5 @@ Brief description of your vehicle's purpose and performance goals.
 - [Circuit Design](docs/CIRCUIT.md)
 - [Bill of Materials](docs/BOM.md)
 - [3D Models](3d-models/)
-- 
+  
 
