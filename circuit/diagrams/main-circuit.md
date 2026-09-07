@@ -2,18 +2,18 @@
 
 # Circuit Specification
 
-PROJECT: SCIOLY EV Circuit Diagram
-DOCUMENTATION: Main Circuit Netlist and Pin Specifications
-REVISION: 1.0
-DATE: 2026-04-13
-COMPANY/TEAM: Savannah Country Day School
-DRAWN BY: Yisun Yoo
-CREATED BY: Yisun Yoo
-SOFTWARE: EasyEDA
+* PROJECT: SCIOLY EV Circuit Diagram
+* DOCUMENTATION: Main Circuit Netlist and Pin Specifications
+* REVISION: 1.0
+* DATE: 2026-04-13
+* COMPANY/TEAM: Savannah Country Day School
+* DRAWN BY: Yisun Yoo
+* CREATED BY: Yisun Yoo
+* SOFTWARE: EasyEDA
 
--------------------------------------------------------------------
+
 # 1. SYSTEM SPECIFICATIONS & HARDWARE NOTES
--------------------------------------------------------------------
+
 * Microcontroller: Arduino Nano ESP32
 * Power Source: 12V Battery (powers the Arduino VIN and motor drivers)
 * Motor Driver Configuration: 
@@ -23,9 +23,9 @@ SOFTWARE: EasyEDA
   - All address pins (A0, A1, A2) are tied to GND.
 * Motor: 4015 gimbal motor
 
--------------------------------------------------------------------
+
 # 2. POWER DISTRIBUTION & BUS RAILS
--------------------------------------------------------------------
+
 * 12V Main Rail:
   - Battery (+) ---> Arduino Nano ESP32 (Pin 30: VIN)
   - Battery (+) ---> M1 SimpleFOCMini V1 (PWR+)
@@ -53,9 +53,9 @@ SOFTWARE: EasyEDA
   - M2 SimpleFOCMini (GND),
   - Arduino-Button (Pin 4).
 
--------------------------------------------------------------------
-# 3. DETAILED PIN CONNECTIONS BY COMPONENT
--------------------------------------------------------------------
+
+# 3. PIN CONNECTIONS BY COMPONENT
+
 
 [A] ARDUINO NANO ESP32
 -------------------------------------------------------------------
